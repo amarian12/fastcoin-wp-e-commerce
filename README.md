@@ -28,7 +28,7 @@ Requirements
 ### PHP requirements:
 * PHP5
 * cURL support
-* SSL support (if you're using HTTPS to talk to terracoind)
+* SSL support (if you're using HTTPS to talk to fastcoind)
 
 Limitations
 -----------
