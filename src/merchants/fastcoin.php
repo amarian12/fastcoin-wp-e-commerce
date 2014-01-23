@@ -219,7 +219,7 @@ function form_fastcoin() {
   $fastcoin_username = get_option('fastcoin_username');
   $fastcoin_password = get_option('fastcoin_password');
   $fastcoin_address = (get_option('fastcoin_address') == '' ? 'localhost' : get_option('fastcoin_address'));
-  $fastcoin_port = (get_option('fastcoin_port') == '' ? '8338' : get_option('fastcoin_port'));
+  $fastcoin_port = (get_option('fastcoin_port') == '' ? '9527' : get_option('fastcoin_port'));
   $fastcoin_timeout = (get_option('fastcoin_timeout') == '' ? '72' : get_option('fastcoin_timeout'));
   $fastcoin_confirms = (get_option('fastcoin_confirms') == '' ? '0' : get_option('fastcoin_confirms'));
   if (get_option('payment_instructions') != '')
