@@ -221,7 +221,7 @@ function form_fastcoin() {
   $fastcoin_address = (get_option('fastcoin_address') == '' ? 'localhost' : get_option('fastcoin_address'));
   $fastcoin_port = (get_option('fastcoin_port') == '' ? '9527' : get_option('fastcoin_port'));
   $fastcoin_timeout = (get_option('fastcoin_timeout') == '' ? '72' : get_option('fastcoin_timeout'));
-  $fastcoin_confirms = (get_option('fastcoin_confirms') == '' ? '0' : get_option('fastcoin_confirms'));
+  $fastcoin_confirms = (get_option('fastcoin_confirms') == '' ? '3' : get_option('fastcoin_confirms'));
   if (get_option('payment_instructions') != '')
     $payment_instructions = get_option('payment_instructions');
   else {
@@ -298,7 +298,7 @@ function form_fastcoin() {
 		</tr>
 		<tr>
 			<td colspan='2'>
-				Like Fastcoin for WP e-Commerce? Your gifts to 1DcZfySDvUoNBzf2mwReVy3VL93WtwnALr are <strong>greatly</strong> appreciated. Thank you!
+				Like Fastcoin for WP e-Commerce? Your gifts to <a href="fastcoin:fmzFf7rCAzYFWnbzcLpoBBf1P9mzZfNmmm">fmzFf7rCAzYFWnbzcLpoBBf1P9mzZfNmmm</a> are <strong>greatly</strong> appreciated. Thank you!
 			</td>
 		</tr>
 	";
